@@ -1,0 +1,73 @@
+/* Globales */
+:root{
+    --colorUno:#E60901;
+    --colorDos:#00CEFF;
+    --colorTres:#701C78;
+    --colorCuatro:#3ACC00;
+}
+
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.cuadrantes{
+    font-family: 'Praise', cursive;
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    width: 100%;
+    height: 100vh;
+    border: none;
+    
+}
+
+.cuadranteUno{
+    background-color: var(--colorUno);    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadranteDos{
+    background-color: var(--colorDos);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadranteTres{
+    background-color: var(--colorTres);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadranteCuatro{
+    background-color: var(--colorCuatro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p:hover{
+    cursor: grab;
+    font-size: 4rem;
+    text-align: center;
+    margin: 1em;
+}
